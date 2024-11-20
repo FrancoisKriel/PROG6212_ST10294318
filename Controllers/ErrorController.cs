@@ -23,7 +23,7 @@ namespace ST10294318_PROG6212_POE.Controllers
             {
                 // Calculate the total amount based on hours worked and a fixed hourly rate
                 decimal hourlyRate = 150.00m; // Example hourly rate
-                claim.TotalAmount = claim.HoursWorked * hourlyRate;
+                claim. TotalAmount = claim.HoursWorked * hourlyRate;
 
                 // Logic to save claim data to the database (to be implemented)
                 ViewBag.Message = "Claim submitted successfully!";

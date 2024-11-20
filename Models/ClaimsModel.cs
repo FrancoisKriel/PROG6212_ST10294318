@@ -3,6 +3,7 @@
     public class ClaimModel
     {
         public int Id { get; set; }
+        public decimal TotalAmount { get; set; }
         public int HoursWorked { get; set; }
         public decimal HourlyRate { get; set; }
         public string? Notes { get; set; }
